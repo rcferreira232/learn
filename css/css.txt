@@ -1,0 +1,24 @@
+declar uma var{
+    :root{
+        --name: value;
+    }
+    ex: 
+    :root {
+        --primary-100: #e2e0ff;
+    }
+    como usar a var
+    ex: color: var(--primary-100);
+}
+
+margin: 0 auto;{
+    Centraliza horizontalmente
+} 
+
+@media{
+    exemplo de sintaxe: @media screen and (min-width: 992px){}
+}
+
+overflow:value;{
+    O overflow é uma propriedade do CSS utilizada para tratar conteúdos que ultrapassam os limites de um elemento.
+    value pode ser = hidden, auto, scroll, visible(padrão), etc...
+}

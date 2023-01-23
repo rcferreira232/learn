@@ -1,0 +1,27 @@
+sudo apt-get install git
+git config --global user.name "Rafael"
+git config --global user.email "rafael########@gmail.com"
+
+#git clone https://github.com/RafaelCFerreira/teste
+
+#git checkout + nome = para entrar em uma branch ou sair
+git branch = olha todas as linhas do tempo
+git show = monstra a ultima ação
+git log = monstra td q foi feito
+
+git init = cria um repositório
+git status
+git add + nome do arquivo
+git commit
+git commit -am "" = atulizar e salvar botando uma mensagem
+#git push = pede usuário + Token
+git branch + nome = cria e da nome a uma linha do tempo alternativa
+git checkout -b + nome = cria uma branch e muda para ela
+git checkout + ponto na hist + -- nome do que vc quer= recupera alguma mudança
+git merge + nome do arquivo = faz a união da linha principal com a sec 
+git branch -D + nome = deleta a branch
+git pull = traz mudanças feitas na nuvem
+git config credential.helper store
+
+#sshkey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCpc7MRZmBYDHydutm8sF6jBkDCGJ+K5L5nKhA5/oKa37EKMkahhIpj6n6JDPlNyBtdcXwATWoqQF5w3IxmX0RbYreydBHT1A2Zr9g899DF7t2oGyyD+J93CLAaxKha55Fccj2xqdKaVWLz29fe9MEp7+wEKsK8kcjUUEZYsR/+pYc0DlcpXLoEA5vsZynCUpdKF00QFevjmMMhqzXAuUhjC6uNHIuYkXaAp9KKwmbOJr3QDA5tx6ZPcaprP6Bc2Aik7kyEfTrOQQ2WRNj9F8KSTTSQXMCQUA4kRH6+FaEbc2KTfCsPQKw8weEEGGDLHowXoHAHFxH+LtjVPgGY4IZe677wTYKEOSUl25CwbZ5oHvPWrWh7PD1ijkyMBdrSIcksLqny2k0sukJsnGow8nlrkoaArv/47FQuOzNQObyHu+mltMrjtHazu0jWz3YELPIn2X9b85VgvN1+iw+3iXBPymvzaputpy+6fwgFvTf/Iy4F/YYysHiW3Fbls+6/Vtc= rafael@mauQueNemPikaPau
+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
