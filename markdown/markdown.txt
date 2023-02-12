@@ -1,0 +1,32 @@
+#Títulos
+	'#' == é utilizado para título == <h1></h1>
+	ex: # Rafael ou ## Cruz ### Ferreira === h1, h2, h3
+
+#Text
+	Negrito **texto** ou __texto__
+	Italico *texto*
+	Risco ~~texto~~
+#Lista
+	Ordenada	N. Ordenada	tarefas => x dentro 
+					
+		1.		   -		-[]
+		1.                 -		-[]
+		1. 		   -		-[]
+ 
+#Linhas 
+	*** ou ---
+#Img
+	![Descrição] (link)
+#Link
+	[Descrição] (link)
+#tabela
+	Id|Nome|R$
+	---|---|---
+	1|rafael|10.000,00
+	2|j|900,00
+#Comands
+	`texto` => caixa branca 
+	```texto``` => bloco de cod
+#Emoji
+	:cod: => https://emojipedia.org/ ou https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+
