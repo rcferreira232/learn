@@ -1,0 +1,35 @@
+DOM
+--------------------------------
+document.
+
+document. = para acessar as propriedades do DOM
+--------------------------------
+.querySelector("")
+
+document.querySelector("") = acessar algum class ou id de um elemento da page]
+
+ex: document.querySelector(".btn") = class btn de um button
+--------------------------------
+.addEventListener
+
+document.querySelector(".btn").addEventListener = adiciona algum evento ao btn
+
+ex: 
+btn.addEventListener('click', ()=>{
+    
+})
+neste caso o evnto será quando "on click".
+--------------------------------
+.textContent
+
+pode ser usado para se adicionar texto alguma tag como <spam></spam>, <p></p>, etc...
+
+ex: document.querySelector(".h1-text").textContent = "hello";
+
+nesse caso a tag com a classe ".h1-text" vai receber uma string "hello".
+--------------------------------
+document.body.style
+
+É normalmente usado para alterar estilos de pagina dps que alguma ação acontece.
+--------------------------------
+

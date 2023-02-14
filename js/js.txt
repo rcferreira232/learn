@@ -1,0 +1,33 @@
+Js
+
+--------------------------------
+Array
+
+const array = [
+    "green",
+    "red"
+] 
+no caso um array de cores
+--------------------------------
+Objeto
+
+const obj = {
+    name: rafael,
+    job: dev,
+    age: 22,
+}
+no caso info sobre uma pessoa
+--------------------------------
+Math
+
+Math.random() = gera números entre 0.1...9~0.9...9
+
+vc pode multiplicar o resultado de Math.random() por algum número, como por ex: 4, logo vc terá números entre 0.1~3.9
+
+Math.floor() = aredondamento para baixo
+--------------------------------
+Function
+
+function name(){}
+()=>{}
+const name = ()=>{}
