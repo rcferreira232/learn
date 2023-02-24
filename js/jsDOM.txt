@@ -60,8 +60,6 @@ btns.forEach((btn)=>{
 })
 
 Esse código adiciona um evento para cada "btn". 
-
-2-
 --------------------------------
 .currentTarget
 
@@ -79,7 +77,6 @@ btn.addEventListener('click', ()=>{
 })
 monstra somente as classes do alvo.
 --------------------------------
-
 .contains
 
 ùtil para obter algo específico.
@@ -89,6 +86,25 @@ btn.addEventListener('click', ()=>{
 })
 
 O código verifica se a classe ".toggle-btn" existe por meio do contain, caso exista ela retorna uma string "batata".
-
 --------------------------------
+window.addEventListener('DOMContentLoaded', ()=>{});
 
+window.addEventListener('DOMContentLoaded', ()=>{
+    console.log("Oi")
+});
+
+Foi adiciona no elemento window um evento que dipara assim que ele carrega. No caso um "Oi".
+--------------------------------
+.innerText
+
+Pega o texto dentro de uma tag
+
+<h1 class="oi">oi</h1>
+const oi = document.querySelector(".oi").innerText
+
+No caso o innerText pego o "oi" dentro da h1.
+--------------------------------
+.insertAdjacentHTML('posição', texto)
+
+Inserção de um elemento em relação a outro.
+--------------------------------

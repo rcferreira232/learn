@@ -1,4 +1,4 @@
-const array = [9,5,7,8,10,2,4,6,788,20]
+const array = [9,5,7,8,10,2,4,6,788,20,4,4,7,90]
 
 console.log(`Array inicial: ${array}`)
 

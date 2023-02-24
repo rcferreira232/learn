@@ -31,3 +31,67 @@ Function
 function name(){}
 ()=>{}
 const name = ()=>{}
+--------------------------------
+Array methods
+
+1- forEach
+
+Method para percorrer um array. 
+
+obs: muito últil para uma nodeList.
+ex:
+const  btns = document.querySelectorAll(".btn");
+
+btns.forEach((btn)=>{
+    btn.addEventListener('click', ()=>{
+        console.log(btn);
+    })
+})
+
+Esse código adiciona um evento para cada "btn". 
+
+2- sort 
+
+Method para ordenar um array
+--------------------------------
+Methods
+
+1
+.replace('char', 'newChar')
+
+ex: number = "12.550"
+number.replace('.', '')
+
+No exemplo o ponto é substituido por uma string vazia.
+
+2
+number()
+
+Transforma em um número.
+ex: const number = "12.550"
+number(number)
+
+No exemplo a string "12.550" virou o número 12.550.
+obs: Não virou 12mil e 550 virou 12.55(12 e 55cents)
+
+3
+.toLocaleString()
+ex: const number = "12.550"
+number.toLocaleString()
+
+Transforma o número em uma string.
+obs: No padrão americano.
+
+number.toLocaleString('pt-BR') 
+Padrão brasileiro
+
+4
+.split
+
+ex: const text = "eu ganhei 1 real"
+text.split(' ')
+
+O split transformou text em um array de tamnho 4, pois a cada espaço (' ') dado pelo user
+ele coloca em uma posição.
+obs: Dependendo do que foi passado dentro dos parênteses do split o resultado muda.
+
