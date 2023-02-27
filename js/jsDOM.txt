@@ -77,6 +77,12 @@ btn.addEventListener('click', ()=>{
 })
 monstra somente as classes do alvo.
 --------------------------------
+.classList
+
+O classList é uma alternativa conveniente para acessar a lista de classes de um elemento 
+
+.classList Methods
+
 .contains
 
 ùtil para obter algo específico.
@@ -86,6 +92,18 @@ btn.addEventListener('click', ()=>{
 })
 
 O código verifica se a classe ".toggle-btn" existe por meio do contain, caso exista ela retorna uma string "batata".
+
+.add
+    -Adicione valores de classe especificados. Se essas classes já existem no atributo do elemento, elas são ignoradas.
+
+.remove
+    -Remover valores de classe específicos.
+
+.toggle
+    -Quando apenas um argumento está presente: Toggle class value; Ou seja, se a classe existir, em seguida, removê-lo e retornar false, se não, então adicioná-lo e retornar true. Quando um segundo argumento está presente: Se o segundo argumento é avaliado como true, adicione o valor especificado da classe e, se ele for avaliado como false, remova-o.
+
+.item
+    -Retorna o valor da classe por índice na coleção.
 --------------------------------
 window.addEventListener('DOMContentLoaded', ()=>{});
 
