@@ -95,3 +95,10 @@ O split transformou text em um array de tamnho 4, pois a cada espaço (' ') dado
 ele coloca em uma posição.
 obs: Dependendo do que foi passado dentro dos parênteses do split o resultado muda.
 
+5 
+.map 
+
+arr.map(()=>{})
+
+O método map() invoca a função callback passada por argumento para cada elemento do Array e devolve um novo Array como resultado.
+
