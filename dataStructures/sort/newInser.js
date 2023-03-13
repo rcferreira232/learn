@@ -5,7 +5,7 @@ console.log(`Array inicial: ${array}`)
 // Método de ordenação insertion sort.
 const insertion = (array) =>{
     let aux=0, i, j;
-    for (i = array.length-1; i >= 0; i--) { //O primeiro for começa na posição 1 e vai até n-1 (0,1,2,3,4,5,6,7,8,9) no caso até a posição 9
+    for (i = array.length-2; i >= 0; i--) { //O primeiro for começa na posição 1 e vai até n-1 (0,1,2,3,4,5,6,7,8,9) no caso até a posição 9
         aux = array[i] //aux no primeiro loop pega a segunda posição do array que tem index 1
         for (j = i; (j<=array.length)&&(aux>array[j+1]); j++) {
             array[j] = array[j+1]

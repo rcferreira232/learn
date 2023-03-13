@@ -126,3 +126,10 @@ No caso o innerText pego o "oi" dentro da h1.
 
 Inserção de um elemento em relação a outro.
 --------------------------------
+.parentElement
+
+função que retorna o elemento pai.
+
+ex: console.log(document.body.parentElement)
+
+O console.log retorna o elemento html da pagina.
